@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio - QueenB</title>
+
+    <!--CSS-->
+    <style>
+ body{
+        margin:0;
+        background-color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    /* configurando o menu superior*/
+    #menu ul{
+   margin: 0;
+   background-color: black;
+   list-style: none;
+   text-align: center;
+   font-size: 24px;
+  }
+  #menu ul li{
+   display: inline;
+
+  }
+  #menu ul li a{
+   padding: 2px 10px;
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+  }
+  #menu ul li a:hover{
+   color: grey;
+  }
+
+  /*Footer*/
+  footer{
+    text-align: center;
+    background: black;
+    color: white;
+
+}
+/* Galeria de Fotos */
+.grid {
+display: grid;
+grid-template-columns: repeat(5, 100px);
+margin-top: 20px;
+margin-right: 100px;
+margin-left: 100px;
+gap: 110px;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+    </style>
+</head>
+
+<!--HTML-->
+<body>
+    <!--Cabeça do site-->
+    <header>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+    </header>
+
+<!--Corpo da página-->
+    <main>
+        
+        <div class="grid">
+           <p> <div class = "grid-item"><a><img src="img/alana.png" width="450px" height="500px" border = "0"/>
+                <br> Folder de divulgação de Salão de Beleza</a> </p></div>
+                
+                <p>
+                    <div class = "grid-item"><a><img src="img/uxmundo.png"  width="450px" height="500px" border = "0"/>
+                    <br> Capa para artigo no Medium sobre UX</a> </p></div>
+                    
+            <p><div class = "grid-item"><a  ><img src="img/hipermercado.png" width="450px" height="500px" border = "0"/>
+                <br>Logo para projeto de hipermercado</a></p></div>
+
+            <p><div class = "grid-item"><a ><img src="img/capa_you.png" width="450px" height="500px" border = "0"/>
+                <br>Capa para canal no youtube</a></a></p></div>
+
+            <p><div class = "grid-item">
+                <a>
+                    <img src="img/vegan.png" width="450px" height="500px" border = "0"/>
+                <br>Logo para projeto de feira orgânica</a></p></div>
+        </div>  
+
+    </main>
+<!--Rodapé-->
+
+<footer>
+    Criado por QueenB Design ano de 2020
+</footer>
+
+</body>
+</html>
